@@ -1,6 +1,7 @@
 
 *{
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -35,7 +36,7 @@ html,
 body {
   height: 100%;
   overflow: auto;
-  background-image: url(Utilities/taxi_bilder.jpg);
+  background-image: url("../Utilities/home/taxi_bilder.jpg");
 }
 
 .nav-item:hover{
@@ -93,23 +94,11 @@ body {
 }
 
 
-.company-describtion{
+.company-description{
   padding: 2%;
   font-size: 19px;
   color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 input[type=text] {
@@ -122,8 +111,9 @@ input[type=text] {
   background-color: white;
   font-size: 16px;
 }
+
 #Current_position{
-  background-image: url("Utilities/map.png");
+  background-image: url("../Utilities/home/map.png");
   background-position: right;
   background-size: 20px 20px;
   background-repeat: no-repeat;
@@ -139,4 +129,59 @@ input[type=submit] {
   text-transform: uppercase;
   font-size: 16px;
   cursor: pointer;
+}
+
+
+.user-destination-title {
+  text-align: left;
+  color: white;
+  margin-bottom: 5%;
+  font-size: 18px;
+}
+
+
+.call-us{
+  margin-top: 20%;
+  margin-right:17%;
+  text-align: center;
+  color: white;
+  display: block;
+  font-size: 18px;
+
+}
+
+
+/* This styles the container of the images */
+.home-animation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #CCCCCC;
+  margin-bottom: 200px;
+  /* This adds space between the images */
+}
+
+/* This styles each image within the container */
+.home-animation img {
+  height: 5%;
+  margin: 2%;
+  width: 5%;
+  background-color: #CCCCCC;
+  transition: transform 2s;
+
+}
+
+.home-animation img:hover{
+  transform: translateY(-30px);
+}
+
+
+.footer-description{
+  display: flex;
+  color:white;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
 }
