@@ -63,43 +63,108 @@ html,body {
 
 .service-container{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
   margin-top: 5%;
   margin-left: 3%;
   margin-right: 3%;
+  gap: 1%;
 }
 
 
-.airport-service-text{
-  display: block;
+.airport-service-text, .city-tour-service-text{
   color: white;
   font-size: 20px;
-  margin-right: 4%;
 }
 
-.airport-service-text > h1{
+.airport-service-text > h1, 
+.city-tour-service-text > h1 {
   margin-bottom: 5%;
 }
 
 
+.service-button-container{
+  display: flex;
+  justify-content: center;
+  align-items:baseline;
+}
 
-.airport-button {
+
+.airport-service{
+  background-image: url("../Utilities/services/airport-service.webp");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+.airport-service-text h1,
+.airport-service-text p, 
+.city-tour-service-text h1, 
+.city-tour-service-text p,
+.business-service-text h1,
+.business-service-text p{
+  color: whitesmoke;
+  margin-left: 2%;
+}
+
+
+
+
+.airport-service-text, .city-tour-service-text, .business-service-text{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+
+.button {
   background-color: #396A45;
   border: none;
   padding: 2% 3%;
   text-align: center;
   font-size: 1.25rem;
-  border-radius: 5%;
+  border-radius: 9%;
   cursor: pointer;
   font-weight: bold;
 }
 
 
 
-
-.airport-service-button-container{
-  display: flex;
-  justify-content: center;
-  align-items: end;
+.city-tour-service{
+  background-image: url("../Utilities/services/city-tour.webp");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
 }
+
+
+
+.business-service{
+  background-image: url("../Utilities/services/businessman_service.webp");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  margin-top: 5%;
+}
+
+
+.footer-description {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+
+
+
+
+
+
