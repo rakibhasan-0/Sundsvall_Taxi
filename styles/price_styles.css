@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+html,body {
+  height: 100%;
+  overflow: auto;
+  background-image: url("../Utilities/home/taxi_bilder.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+.nav-item:hover {
+  font-weight: bold;
+  border: solid 1px black;
+  background-color: #396A45;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-bar {
+  position: sticky;
+  top: 0;
+  background-color: #5AA56D;
+}
+
+.nav-menu {
+  display: flex;
+  background-color: #355E3B;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  padding: 20px;
+}
+
+
+.price-headline-text {
+  background: rgba(0, 0, 0, 0.7);
+  margin-right: 2%;
+  padding-bottom: 2%;
+  padding-right: 0.5%;
+  padding-left: 0.5%;
+
+}
+
+.price-headline-container{
+  display: flex;
+  justify-content:flex-end;
+  align-items:flex-end;
+  flex-direction: column;
+  color: white;
+  background-image: url("../Utilities/price_services/taxi_price.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+
+
+.price-headline-text > h1{
+  color: whitesmoke;
+  font-size: 30px;
+
+}
+
+ .price-headline-text > p {
+  color: whitesmoke;
+  font-size: 19px;
+ }
+
+
+
+.standard-price-headline{
+  display: flex;
+  color: whitesmoke;
+  font-size: 17px;
+  justify-content: center;
+  margin: 5%;
+}
+
+
+
+.standard-price-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+
+.standard-price-table-day-time table, .standard-price-table-night-time table {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ddd;
+  margin-bottom: 5%;
+  border-collapse: collapse;
+  margin-left: 6%;
+}
+
+.standard-price-table-day-time td{
+  padding: 50px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.standard-price-table-day-time th{
+  background-color: #355E3B;
+  color: white;
+  padding: 20px;
+}
+
+.standard-price-table-day-time tr{
+  background-color: #f2f2f2;
+}
+
+
+.standard-price-table-night-time td{
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color: #f2f2f2;
+}
+
+.standard-price-table-night-time th {
+  background-color: #355E3B;
+  color: white;
+  padding: 20px;
+}
+
+
+
+.special-offers-text{
+  text-align: left;
+  color: whitesmoke;
+  margin: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
