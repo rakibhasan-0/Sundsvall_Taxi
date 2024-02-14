@@ -151,7 +151,6 @@ input[type=submit] {
 }
 
 
-/* This styles the container of the images */
 .home-animation {
   display: flex;
   flex-direction: row;
@@ -160,7 +159,6 @@ input[type=submit] {
   gap: 10px;
   background-color: #CCCCCC;
   margin-bottom: 200px;
-  /* This adds space between the images */
 }
 
 /* This styles each image within the container */

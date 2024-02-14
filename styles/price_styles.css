@@ -6,9 +6,9 @@
 html,body {
   height: 100%;
   overflow: auto;
-  background-image: url("../Utilities/home/taxi_bilder.jpg");
+  background-image: url("../Utilities/price_services/istockphoto-taxi.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size:259%;
 }
 
 
@@ -160,17 +160,21 @@ html,body {
   margin-bottom: 5%;
 }
 
+.footer-description {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
 
 
 
-
-
-
-
-
-
-
-
+.images{
+  width: 80%; 
+  height: 80%;
+  border-radius: 3%;
+}
 
 
 
