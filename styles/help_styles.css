@@ -117,8 +117,40 @@ html,body {
 }
 
 
-.topic-container{
+.topic-container {
   display: flex;
   flex-direction: column;
-  
+  margin-top: 5%;
+  margin-left: 5%;
+  max-width: 600px;
 }
+
+.topic-section {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  padding: 10px 0;
+}
+
+.icon, .forward-icon {
+  color: whitesmoke;
+  margin-right: 16px;
+}
+
+.topic-subject h3 {
+  color: whitesmoke;
+}
+
+.forward-icon {
+  margin-left: auto;
+}
+
+
+.footer-description {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
