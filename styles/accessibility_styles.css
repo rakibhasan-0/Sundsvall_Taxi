@@ -8,7 +8,7 @@ html, body {
   overflow: auto;
   background-image: url("../Utilities/accessibility/istockphoto-1054373266-1024x1024.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 150%;
 }
 
 
@@ -77,8 +77,6 @@ html, body {
 
 
 
-
-
 .accessibility-service-container{
   display: flex;
   flex-direction: row;
@@ -113,11 +111,6 @@ html, body {
 
 
 
-
-
-
-
-
 .accessibility-add-text{
   display: block;
   text-align: start;
@@ -125,4 +118,24 @@ html, body {
   margin: 5%;
   background: rgba(0, 0, 0, 0.7);
   padding: 3%;
+}
+
+
+.video-player{
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 2%;
+}
+
+
+
+.footer-description {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  margin-bottom: 5%;
 }
