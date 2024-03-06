@@ -3,12 +3,13 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-html,body {
+
+html,
+body {
   height: 100%;
   overflow: auto;
-  background-image: url("../Utilities/home/taxi_bilder.jpg");
+  background-color: black;
 }
-
 
 .nav-item:hover {
   font-weight: bold;
@@ -36,10 +37,26 @@ html,body {
 
 
 .nav-item {
-  display: flex;
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+  display: inline-flex;
   align-items: center;
-  font-size: 24px;
   padding: 20px;
+  font-size: 24px;
+}
+
+.nav-item:link,
+.nav-item:visited,
+.nav-item:active {
+  color: black;
+}
+
+
+.material-icons {
+  vertical-align: middle;
+  margin-right: 8px;
+  font-size: 24px;
 }
 
 

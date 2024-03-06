@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel ="stylesheet" href="../styles/feature_styles.css">
+  <link rel="icon" type="image/x-icon" href="../Utilities/home/taxi.png">
+  <title>Feature</title>
+</head>
+
+
+<body>
+
+  <header>
+
+    <!-- it is the navigation bar -->
+    <div class="nav-bar">
+      <nav class="nav-menu">
+        <a class="nav-item" href="index.html">
+          <i class="material-icons">home</i>
+          <span>Home</span>
+        </a>
+        <a class="nav-item" href="service.html">
+          <i class="material-icons">work</i>
+          <span>Services</span>
+        </a>
+        <a class="nav-item" href="price.html">
+          <i class="material-icons">euro_symbol</i>
+          <span>Price & Rates</span>
+        </a>
+        <a class="nav-item" href="accessibility.html">
+          <i class="material-icons">accessibility</i>
+          <span>Accessibility</span>
+        </a>
+        <a class="nav-item" href="feature.html">
+          <i class="material-icons">grade</i>
+          <span>Features</span>
+        </a>
+        <a class="nav-item" href="help.html">
+          <i class="material-icons">help</i>
+          <span>Help</span>
+        </a>
+      </nav>
+    </div>
+
+  </header>
+
+  
+  <main>
+
+    <div class="feature-headline-container">
+      <h2>We have a wide range of feature of viceless,</h2>
+      <h2>just choose that one suits you.</h2>
+    </div>
+
+    <div class="taxi-container">
+    
+      <div class="taxi-text-container">
+        <h3>Standard Taxi</h3>
+        <p>Our classic taxi service, which is suitable for most people.</p>
+        <p>It always been popular choice for all kind of people.</p>
+        <button class="book-button">Book</button>
+      </div>
+    
+    
+      <div class="taxi-image-container">
+        <button class="prev-button" onclick ="changePrevFromStandardTaxi()"><i class="material-icons">arrow_back</i></button>
+        <img id="standard-taxi-image" class="taxi-image" src="../Utilities/Features/classic_1.webp" alt="a standard taxi">
+        <button class="next-button" onclick ="changeNextFromStandardTaxi()"><i class="material-icons">arrow_forward</i></button>
+      </div>
+    
+    
+    </div>
+    
+    
+    
+    <div class="taxi-container">
+    
+      <div class="taxi-text-container">
+        <h3>Eco Taxi</h3>
+        <p>The Environment has been always our priority.</p>
+        <p>Choose our eco taxi service</p>
+        <button class="book-button">Book</button>
+      </div>
+    
+    
+      <div class="taxi-image-container">
+        <button class="prev-button" onclick="changePrevFromEcoTaxi()"><i class="material-icons">arrow_back</i></button>
+        <img id="eco-taxi-image" class="taxi-image" src="../Utilities/Features/eco_1.webp" alt="a standard taxi">
+        <button class="next-button" onclick="changeNextFromEcoTaxi()"><i class="material-icons">arrow_forward</i></button>
+      </div>
+    
+    
+    </div>
+    
+    
+    
+    <div class="taxi-container">
+    
+      <div class="taxi-text-container">
+        <h3>Luxury Taxi</h3>
+        <p>Those who prefers with extra comfort, service and safety.</p>
+        <p>Choose our luxury taxi</p>
+        <button class="book-button">Book</button>
+      </div>
+    
+    
+      <div class="taxi-image-container">
+        <button class="prev-button" onclick="changePrevFromLuxTaxi()"><i class="material-icons">arrow_back</i></button>
+        <img id="lux-taxi-image" class="taxi-image" src="../Utilities/Features/lux_taxi_1.webp" alt="a standard taxi">
+        <button class="next-button" onclick="changeNextFromLuxTaxi()"><i class="material-icons">arrow_forward</i></button>
+      </div>
+    
+    </div>
+
+  </main>
+
+  <footer>
+
+    <div class="footer-description">
+      <p>© 2024 Sundsvall Taxi.</p>
+      <a href="https://www.flaticon.com/free-icons/disability" title="disability icons"
+        style="color: white; margin: 2%;">Terms & Agreement. </a>
+      <p> About us. </p>
+    </div>
+  
+  </footer>
+
+  <script src="../scripts/feature.js"></script>
+
+</body>
+
+</html>

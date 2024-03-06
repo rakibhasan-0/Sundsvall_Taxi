@@ -1,16 +1,15 @@
 * {
   margin: 0;
-  font-family: sans-serif, Arial, Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-html,body {
+
+html,
+body {
   height: 100%;
   overflow: auto;
-  background-image: url("../Utilities/price_services/istockphoto-taxi.jpg");
-  background-repeat: no-repeat;
-  background-size:259%;
+  background-color: black;
 }
-
 
 .nav-item:hover {
   font-weight: bold;
@@ -32,17 +31,33 @@ html,body {
   background-color: #355E3B;
   justify-content: space-between;
   flex-direction: row;
+  margin-bottom: 5%;
   align-items: center;
 }
 
 
 .nav-item {
-  display: flex;
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+  display: inline-flex;
   align-items: center;
-  font-size: 24px;
   padding: 20px;
+  font-size: 24px;
 }
 
+.nav-item:link,
+.nav-item:visited,
+.nav-item:active {
+  color: black;
+}
+
+
+.material-icons {
+  vertical-align: middle;
+  margin-right: 8px;
+  font-size: 24px;
+}
 
 .price-headline-text {
   background: rgba(0, 0, 0, 0.7);
